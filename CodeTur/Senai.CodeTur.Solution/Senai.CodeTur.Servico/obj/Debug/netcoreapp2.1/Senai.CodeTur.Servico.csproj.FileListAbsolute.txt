@@ -1,0 +1,9 @@
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\bin\Debug\netcoreapp2.1\Senai.CodeTur.Servico.deps.json
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\bin\Debug\netcoreapp2.1\Senai.CodeTur.Servico.dll
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\bin\Debug\netcoreapp2.1\Senai.CodeTur.Servico.pdb
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.csprojAssemblyReference.cache
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.csproj.CoreCompileInputs.cache
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.AssemblyInfoInputs.cache
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.AssemblyInfo.cs
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.dll
+C:\Users\38940293827\Documents\CodeTur\Senai.CodeTur.Solution\Senai.CodeTur.Servico\obj\Debug\netcoreapp2.1\Senai.CodeTur.Servico.pdb
