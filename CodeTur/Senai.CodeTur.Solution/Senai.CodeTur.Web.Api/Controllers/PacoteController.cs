@@ -4,7 +4,6 @@ using Microsoft.AspNetCore.Mvc;
 using Senai.CodeTur.Dominio.Entidades;
 using Senai.CodeTur.Dominio.Interfaces.Repositorios;
 using Senai.CodeTur.Servico.ViewModels.Pacote;
-
 namespace Senai.CodeTur.Web.Api.Controllers
 {
     [Route("api/[controller]")]
