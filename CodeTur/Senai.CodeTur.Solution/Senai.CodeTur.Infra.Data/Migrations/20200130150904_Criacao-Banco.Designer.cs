@@ -9,14 +9,14 @@ using Senai.CodeTur.Infra.Data.Contextos;
 namespace Senai.CodeTur.Infra.Data.Migrations
 {
     [DbContext(typeof(CodeTurContext))]
-    [Migration("20200130170130_Criacao-Banco")]
+    [Migration("20200130150904_Criacao-Banco")]
     partial class CriacaoBanco
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.1.11-servicing-32099")
+                .HasAnnotation("ProductVersion", "2.1.14-servicing-32113")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -39,19 +39,19 @@ namespace Senai.CodeTur.Infra.Data.Migrations
                     b.Property<string>("Senha")
                         .IsRequired()
                         .HasColumnName("Senha")
-                        .HasColumnType("varchar(20)");
+                        .HasColumnType("varchar(15)");
 
                     b.Property<string>("Tipo")
                         .IsRequired()
                         .HasColumnName("Tipo")
-                        .HasColumnType("varchar(150)");
+                        .HasColumnType("varchar(20)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Usuarios");
 
                     b.HasData(
-                        new { Id = 1, Email = "admin@codetur.com", Nome = "Rafael Pieri", Senha = "Codetur@132", Tipo = "Administrador" }
+                        new { Id = 1, Email = "admin@codetur.com", Nome = "Fernando Henrique", Senha = "Codetur@132", Tipo = "Administrador" }
                     );
                 });
 #pragma warning restore 612, 618

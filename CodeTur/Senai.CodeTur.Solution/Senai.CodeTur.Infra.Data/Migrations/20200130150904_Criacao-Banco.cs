@@ -15,8 +15,8 @@ namespace Senai.CodeTur.Infra.Data.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Nome = table.Column<string>(type: "varchar(150)", nullable: false),
                     Email = table.Column<string>(type: "varchar(150)", nullable: false),
-                    Senha = table.Column<string>(type: "varchar(20)", nullable: false),
-                    Tipo = table.Column<string>(type: "varchar(150)", nullable: false)
+                    Senha = table.Column<string>(type: "varchar(15)", nullable: false),
+                    Tipo = table.Column<string>(type: "varchar(20)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -26,7 +26,7 @@ namespace Senai.CodeTur.Infra.Data.Migrations
             migrationBuilder.InsertData(
                 table: "Usuarios",
                 columns: new[] { "Id", "Email", "Nome", "Senha", "Tipo" },
-                values: new object[] { 1, "admin@codetur.com", "Rafael Pieri", "Codetur@132", "Administrador" });
+                values: new object[] { 1, "admin@codetur.com", "Fernando Henrique", "Codetur@132", "Administrador" });
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
