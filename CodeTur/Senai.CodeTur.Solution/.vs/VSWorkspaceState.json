@@ -1,6 +1,17 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Senai.CodeTur.Infra.Data",
+    "\\Senai.CodeTur.Infra.Data\\Migrations",
+    "\\Senai.CodeTur.Infra.Data\\Repositorios",
+    "\\Senai.CodeTur.Servico",
+    "\\Senai.CodeTur.Servico\\ViewModels",
+    "\\Senai.CodeTur.Servico\\ViewModels\\Conta",
+    "\\Senai.CodeTur.Servico\\ViewModels\\Pacote",
+    "\\Senai.CodeTur.Teste.XUnit",
+    "\\Senai.CodeTur.Teste.XUnit\\Repositorios",
+    "\\Senai.CodeTur.Web.Api",
+    "\\Senai.CodeTur.Web.Api\\Controllers"
   ],
   "SelectedNode": "\\Senai.CodeTur.Solution.sln",
   "PreviewInSolutionExplorer": false
